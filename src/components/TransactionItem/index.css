@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.list-header-values {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+  align-self: center;
+  border: 1px solid #cbd5e1;
+  width: 80%;
+}
+.header-values {
+  color: #475569;
+  font-family: 'Roboto';
+  width: 25%;
+  text-align: center;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+.delete-icon {
+  width: 30%;
+}

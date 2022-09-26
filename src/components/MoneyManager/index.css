@@ -1,0 +1,130 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 30px;
+}
+.welcome-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 80%;
+  align-self: center;
+  padding: 60px;
+  padding-bottom: 30px;
+}
+.heading-name {
+  font-family: 'Roboto';
+  color: #475569;
+}
+.para {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.span-para {
+  color: #0b69ff;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.add-transaction-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+  padding-left: 90px;
+  align-self: center;
+  width: 30%;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  margin-right: 20px;
+}
+.form-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  align-self: flex-start;
+}
+.input-el {
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+  height: 35px;
+  font-style: 'Roboto';
+  outline: none;
+  margin-bottom: 15px;
+}
+.form-button {
+  border: none;
+  outline: none;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 7px;
+  width: 75px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #0b69ff;
+  margin-top: 5px;
+}
+.transaction-history-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+  align-self: center;
+  width: 45%;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  list-style-type: none;
+  height: 350px;
+}
+.list-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: center;
+  border: 1px solid #cbd5e1;
+  width: 80%;
+}
+.history-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-left: 60px;
+}
+.header {
+  color: #475569;
+  font-family: 'Roboto';
+
+  width: 27%;
+  text-align: center;
+}
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
